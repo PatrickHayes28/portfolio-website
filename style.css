@@ -1,0 +1,116 @@
+html {
+  background-image: url(./images/portfolio-background\ .jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pic {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myName {
+  text-align: center;
+  font-size: 60px;
+  color: black;
+}
+
+.AboutMe {
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+
+.AboutMeContent {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.Projects {
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  padding: 0px auto 0px auto;
+  margin: -40px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 13px;
+}
+
+.column {
+  float: left;
+  width: 500px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.content {
+  color: black;
+  background-color: transparent;
+  padding: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.Education {
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+
+.Goals {
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+
+.GoalsContent {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+.EducationContent {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
